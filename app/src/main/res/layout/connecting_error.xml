@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            style="@style/match_parent_layout"
+            android:id="@+id/connectingError"
+            android:gravity="center_horizontal"
+            android:background="@android:color/black">
+
+    <be.belgacom.tv.bepandroid.customview.BepTextView
+            android:id="@+id/text1"
+            app:font="Proximus-Regular.otf"
+            style="@style/conctng_scrn_para1"
+            android:text="@string/conctn_err_scrn_genius_verbinding"
+            android:layout_alignParentTop="true"
+            android:layout_alignStart="@+id/text2" />
+
+    <be.belgacom.tv.bepandroid.customview.BepTextView
+            android:id="@+id/text2"
+            app:font="Proximus-Bold.otf"
+            style="@style/conctng_scrn_connectingHeading"
+            android:text="@string/conctn_err_scrn_uw_decoder_is_niet_verbonden"
+            android:layout_below="@+id/text1"
+            android:layout_marginTop="15dp"
+            android:layout_alignParentStart="true" />
+
+    <View
+            android:layout_width="fill_parent"
+            android:background="@drawable/gradient"
+            android:layout_height="2dp"
+            android:id="@+id/view1"
+            android:layout_below="@+id/text2"
+            android:layout_marginTop="4dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignEnd="@+id/text3" />
+
+    <be.belgacom.tv.bepandroid.customview.BepTextView
+            android:id="@+id/text3"
+            app:font="Proximus-Regular.otf"
+            style="@style/conctn_err_scrn_connecting_para"
+            android:text="@string/conctn_err_scrn_Hoe_heeft_u_de_decoder_met_de_modem_verbonden"
+            android:layout_below="@+id/view1"
+            android:layout_marginTop="5dp"
+            android:layout_alignStart="@+id/text2" />
+
+    <ImageView
+            android:id="@+id/imageView1"
+           style="@style/conctn_err_scrn_img"
+            android:layout_below="@+id/text3"
+            android:layout_centerInParent="true"
+            android:layout_alignEnd="@+id/text3" />
+
+
+    <be.belgacom.tv.bepandroid.customview.BepTextView
+            android:id="@+id/text4"
+            app:font="Proximus-Regular.otf"
+            style="@style/conctn_err_scrn_connecting_para"
+            android:layout_below="@+id/imageView1"
+            android:layout_marginTop="5dp"
+            android:text="@string/conctn_err_scrn_1_Kabel"  />
+
+    <be.belgacom.tv.bepandroid.customview.BepTextView
+            android:id="@+id/text5"
+            app:font="Proximus-Regular.otf"
+            style="@style/conctn_err_scrn_connecting_para"
+            android:layout_marginTop="5dp"
+            android:layout_below="@+id/text4"
+            android:text="@string/conctn_err_scrn_2_draadloos"  />
+
+    <be.belgacom.tv.bepandroid.customview.BepTextView
+            android:id="@+id/text6"
+            app:font="Proximus-Regular.otf"
+            android:layout_marginTop="5dp"
+            style="@style/conctn_err_scrn_connecting_para"
+            android:layout_below="@+id/text5"
+            android:text="@string/conctn_err_scrn_hulp_nodig"  />
+
+</RelativeLayout>
+
+    
+

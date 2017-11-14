@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            style="@style/match_parent_layout"
+            android:id="@+id/iptvView"
+            android:baselineAligned="false"
+            android:gravity="center"
+            android:background="@android:color/black">
+
+
+    <be.belgacom.tv.bepandroid.customview.BepTextView
+            android:id="@+id/text1"
+            style="@style/sw_updt_scrn_text"
+            app:font="Proximus-Regular.otf"
+            android:text="@string/sw_updt_scrn_de_software_wordt_geladen"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"/>
+
+    <be.belgacom.tv.bepandroid.customview.BepTextView
+            android:id="@+id/text2"
+            style="@style/sw_updt_scrn_text"
+            android:layout_below="@+id/text1"
+            android:text="@string/sw_updt_scrn_gelieve_enkele_minuten_te_wachten"
+            app:font="Proximus-Regular.otf"
+            android:layout_centerInParent="true" />
+
+    <ImageView
+            android:id="@+id/imageView1"
+            style="@style/sw_updt_scrn_img"
+            android:layout_below="@+id/text2"
+            android:layout_centerInParent="true" />
+
+    <be.belgacom.tv.bepandroid.customview.BepTextView
+            android:id="@+id/text3"
+            style="@style/sw_updt_scrn_text"
+            android:layout_below="@+id/imageView1"
+            android:text="@string/sw_updt_scrn_mise_a_jour_du_logiciel_en_cours"
+            app:font="Proximus-Regular.otf"
+            android:layout_centerInParent="true" />
+
+    <be.belgacom.tv.bepandroid.customview.BepTextView
+            android:id="@+id/text4"
+            style="@style/sw_updt_scrn_text"
+            android:layout_below="@+id/text3"
+            android:text="@string/sw_updt_scrn_veuillez_patienter_quelques_minutes"
+            app:font="Proximus-Regular.otf"
+            android:layout_centerInParent="true" />
+
+</RelativeLayout>
+
+
+

@@ -1,0 +1,27 @@
+<resources>
+
+    <string name="app_name">bepandroid</string>
+
+    <string name="sw_updt_scrn_de_software_wordt_geladen">De software wordt geladen</string>
+    <string name="sw_updt_scrn_gelieve_enkele_minuten_te_wachten">Gelieve enkele minuten te wachten</string>
+    <string name="sw_updt_scrn_mise_a_jour_du_logiciel_en_cours">Mise a jour du logiciel en cours</string>
+    <string name="sw_updt_scrn_veuillez_patienter_quelques_minutes">Veuillez patienter quelques minutes</string>
+
+    <string name="conctng_scrn_genius_verbinding">genius verbinding</string>
+    <string name="conctng_scrn_start">start</string>
+    <string name="conctng_scrn_We_zijn_uw_verbinding_aan_het_controleren">We zijn uw verbinding aan het controleren</string>
+    <string name="conctng_scrn_nous_vorifions_votre_connectivite">Nous vorifions votre connectivite</string>
+    <string name="conctng_scrn_wir_prufen_lhre_konnektivitat">Wir prufen lhre konnektivitat</string>
+
+    <string name="conctn_sucs_scrn_genius_verbinding">genius verbinding</string>
+    <string name="conctn_sucs_scrn_klaar">klaar</string>
+    <string name="conctn_sucs_scrn_de_verbinding_is_succesvol_tot_stand_gabracht">De verbinding is succesvol tot stand gabracht!</string>
+
+    <string name="conctn_err_scrn_genius_verbinding"> genius verbinding </string>
+    <string name="conctn_err_scrn_uw_decoder_is_niet_verbonden">uw decoder is niet verbonden </string>
+    <string name="conctn_err_scrn_Hoe_heeft_u_de_decoder_met_de_modem_verbonden">Hoe heeft u de decoder met de modem verbonden? </string>
+    <string name="conctn_err_scrn_1_Kabel">1 - Kabel</string>
+    <string name="conctn_err_scrn_2_draadloos">2 - draadloos</string>
+    <string name="conctn_err_scrn_hulp_nodig">hulp nodig</string>
+
+</resources>

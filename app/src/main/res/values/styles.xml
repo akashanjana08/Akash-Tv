@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="@style/Theme.Leanback" ></style>
+
+    <style name="match_parent_layout" parent="android:TextAppearance">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+
+    <style name="sw_updt_scrn_text" parent="android:TextAppearance">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="sw_updt_scrn_img" parent="android:TextAppearance">
+        <item name="android:layout_width">170dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">30dp</item>
+        <item name="android:layout_marginTop">30dp</item>
+        <item name="android:src">@drawable/refresh_white</item>
+    </style>
+
+
+    <style name="conctng_scrn_para1" parent="android:TextAppearance">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:layout_marginTop">60dp</item>
+        <item name="android:text">@string/conctng_scrn_genius_verbinding</item>
+    </style>
+
+
+    <style name="conctng_scrn_connectingHeading" parent="android:TextAppearance">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">19sp</item>
+        <item name="android:layout_marginTop">15dp</item>
+    </style>
+
+
+    <style name="conctng_scrn_connecting_para" parent="android:TextAppearance">
+    <item name="android:layout_width">wrap_content</item>
+    <item name="android:layout_height">wrap_content</item>
+    <item name="android:textStyle">normal</item>
+    <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="conctn_sucs_scrn_sucs_img" parent="android:TextAppearance">
+        <item name="android:layout_width">150dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">15dp</item>
+        <item name="android:src">@drawable/success</item>
+    </style>
+    <style name="conctn_err_scrn_connecting_para" parent="android:TextAppearance">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+
+    <style name="conctn_err_scrn_img" parent="android:TextAppearance">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">30dp</item>
+        <item name="android:layout_marginTop">30dp</item>
+        <item name="android:src">@drawable/lan_connection_error</item>
+    </style>
+
+
+</resources>

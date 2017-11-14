@@ -1,0 +1,45 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    style="@style/match_parent_layout"
+    android:gravity="center_horizontal"
+    android:id="@+id/mConnectionSuccess"
+    android:background="@android:color/black">
+
+    <be.belgacom.tv.bepandroid.customview.BepTextView
+        android:id="@+id/mText1"
+        app:font="Proximus-Regular.otf"
+        style="@style/conctng_scrn_para1"/>
+
+    <be.belgacom.tv.bepandroid.customview.BepTextView
+        android:id="@+id/mText2"
+        app:font="Proximus-Bold.otf"
+        style="@style/conctng_scrn_connectingHeading"
+        android:text="@string/conctn_sucs_scrn_klaar"
+        android:layout_below="@+id/mText1"/>
+
+    <View
+        android:layout_width="500dp"
+        android:background="@drawable/gradient"
+        android:layout_height="2dp"
+        android:id="@+id/view"
+        android:layout_below="@+id/mText2"
+        android:layout_marginTop="4dp"
+        android:layout_alignStart="@+id/mText2" />
+
+    <be.belgacom.tv.bepandroid.customview.BepTextView
+        android:id="@+id/mText3"
+        app:font="Proximus-Regular.otf"
+        style="@style/conctng_scrn_connecting_para"
+        android:text="@string/conctn_sucs_scrn_de_verbinding_is_succesvol_tot_stand_gabracht"
+        android:layout_below="@+id/view"
+        android:layout_marginTop="5dp"
+        android:layout_alignStart="@+id/mText2"/>
+
+
+
+    <ImageView android:id="@+id/mImageSuccess"
+        style="@style/conctn_sucs_scrn_sucs_img"
+        android:layout_below="@+id/mText3"
+        android:layout_alignEnd="@+id/mText3" />
+
+</RelativeLayout>
